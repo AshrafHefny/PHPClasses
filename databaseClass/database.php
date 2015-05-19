@@ -1,5 +1,14 @@
 <?php
 
+// +----------------------------------------------------------------------+
+// | PHP version 4/5                                                      |
+// +----------------------------------------------------------------------+
+// | Authors: Ashraf Hefny <ashrafhefny72@gmail.com>                      |
+// +----------------------------------------------------------------------+
+// | Copyrights Ashraf Hefny, 2012                                        |
+// | All rights reserved                                                  |
+// +----------------------------------------------------------------------+
+
 class DB{
     private static $_instance = null;
     private $_connect, $_select, $_query, $_results, $_errors = array(), $_count = 0;
